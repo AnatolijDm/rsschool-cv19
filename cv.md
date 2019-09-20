@@ -2,7 +2,7 @@
 1. Anatolij Dmitruk
 1. MTS mobile: +375 (29) 851 94 87; e-mail addresses: anat_dr25@rambler.ru, anatolij.dmitruk@gmail.com
 1. I wish became a good programmer with big bag of experience, had in a big progressive company. Want to improve my knowledge of creating web pages and js language skills, working with git and ect.
-1. Skills: Hexlet javascript courses, book of computer creating history, C/C++ language book, CS50 courses.
+1. Skills: [Hexlet javascript courses](https://ru.hexlet.io/courses/introduction_to_programming), book of computer creating history, C/C++ language book, [CS50 courses](https://javarush.ru/quests/QUEST_HARVARD_CS50).
 1. Code examples: 
 >const reverse = (str) => {
  > let i = str.length - 1;
@@ -13,3 +13,14 @@
   >}
 >  return result;
 >};
+
+>const iter = (acc) => {
+   >if (acc > num / 2) {
+    >  return num;
+    >}
+    >if (num % acc === 0) {
+    >  return acc;
+    >}
+    >return iter(acc + 1);
+  >};
+>  return iter(2);
