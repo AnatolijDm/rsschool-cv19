@@ -4,7 +4,8 @@
 1. I wish became a good programmer with big bag of experience, had in a big progressive company. Want to improve my knowledge of creating web pages and js language skills, working with git and ect.
 1. Skills: Basic JavaScript and C languages, basic HTML and CSS.
 1. Code examples: 
-'<addr>' const reverse = (str) => {
+<addr>
+const reverse = (str) => {
   let i = str.length - 1;
   let result = '';
   while (i >= 0) {
@@ -14,7 +15,8 @@
   return result;
 };
 
-'<addr>' const iter = (acc) => {
+<addr>
+const iter = (acc) => {
    if (acc > num / 2) {
       return num;
     }
