@@ -4,27 +4,29 @@
 1. I wish became a good programmer with big bag of experience, had in a big progressive company. Want to improve my knowledge of creating web pages and js language skills, working with git and ect.
 1. Skills: Basic JavaScript and C languages, basic HTML and CSS.
 1. Code examples:  
-    <addr>
-    >const reverse = (str) => {
-      > let i = str.length - 1;
-     > let result = '';
-     > while (i >= 0) {
-      > result = result + str[i];
-     > i = i - 1;
-     > }
-     > return result;
-    > };
-    
-    > const iter = (acc) => {  
+    ```javascript
+    const reverse = (str) => {
+       let i = str.length - 1;
+      let result = '';
+      while (i >= 0) {
+       result = result + str[i];
+      i = i - 1;
+      }
+      return result;
+     };
+    ```
+    ```javascript
+     const iter = (acc) => {  
         > if (acc > num / 2) {  
          > return num;  
         > }  
-      > if (num % acc === 0) {  
+       if (num % acc === 0) {  
         > return acc;  
-      > }  
-      > return iter(acc + 1);  
-     > };  
-    > return iter(2);</addr>  
+       }  
+       return iter(acc + 1);  
+      };  
+     return iter(2);  
+    ```
 
 1. Experience: I have no work experience in programming.
 1. Education:
