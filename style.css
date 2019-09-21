@@ -1,0 +1,46 @@
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.block {
+    display: block;
+    vertical-align: middle;
+    width: 1024px;
+}
+
+table {
+    max-width: 1024px;
+    width: 800px;
+    border-collapse: collapse;
+}
+
+.title {
+    text-align: left;
+    line-height: 100px;
+    border: 1px solid brown;
+    padding: 10px;
+    background-color: rgb(9, 19, 41);
+    color: white;
+}
+
+.list {
+    border-top: 20px solid rgb(9, 19, 41);
+    background-color: rgb(172, 194, 236);
+}
+
+.image {
+    text-align: right;
+    background-image: url("office.jpg")
+}
+
+.center {
+    text-align: center;
+}
