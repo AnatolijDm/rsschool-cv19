@@ -6,26 +6,26 @@
 1. Code examples:  
     ```javascript
     const reverse = (str) => {
-        let i = str.length - 1;
-         let result = '';
-        while (i >= 0) {
-        result = result + str[i];
-         i = i - 1;
-        }
-    return result;
-    };
+      let i = str.length - 1;
+      let result = '';
+      while (i >= 0) {
+       result = result + str[i];
+      i = i - 1;
+      }
+      return result;
+     };
     ```
     ```javascript
-    const iter = (acc) => {  
-        if (acc > num / 2) {  
-          return num;  
-        }  
-        if (num % acc === 0) {  
-          return acc;  
-        }  
-        return iter(acc + 1);  
-    };  
-    return iter(2);  
+     const iter = (acc) => {  
+        > if (acc > num / 2) {  
+         > return num;  
+        > }  
+       if (num % acc === 0) {  
+        > return acc;  
+       }  
+       return iter(acc + 1);  
+      };  
+     return iter(2);  
     ```
 
 1. Experience: I have no work experience in programming.
