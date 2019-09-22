@@ -1,8 +1,6 @@
 .wrapper {
     max-width: 1024px;
     margin: 0 auto;
-    text-align: left;
-    background-color: light-gray;
 }
 
 body {
@@ -36,7 +34,6 @@ blockquote{
 .pahr {
     font-style: italic;
     font-size: 18px;
-    line-height: 25px;
 }
 
 .noitalic {
@@ -49,20 +46,21 @@ blockquote{
 
 table {
     width: 800px;
-    border-collapse: collapse;
+    border-collapse: collapse; 
 }
 
 .title {
+    font-size: 30px;
     text-align: left;
     line-height: 100px;
     border: 1px solid brown;
-    padding: 10px;
+    padding-top: 20px;
+    padding-left: 20px;
     background-color: rgb(9, 19, 41);
     color: white;
 }
 
-.list {
-    border-top: 20px solid rgb(9, 19, 41);
+tr {
     background-color: rgb(172, 194, 236);
 }
 
@@ -72,5 +70,5 @@ table {
 }
 
 td {
-    padding: 20px;
+    padding: 30px;
 }
