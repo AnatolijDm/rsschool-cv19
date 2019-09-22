@@ -6,7 +6,7 @@
 1. Code examples:  
     ```javascript
     const reverse = (str) => {
-       let i = str.length - 1;
+      let i = str.length - 1;
       let result = '';
       while (i >= 0) {
        result = result + str[i];

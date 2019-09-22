@@ -1,0 +1,74 @@
+.wrapper {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+body {
+    font-size: 18px;
+}
+
+.bold {
+    color: rgb(63, 14, 95);
+    font-weight: bold;
+    text-align: right;
+}
+
+.italic {
+    color: rgb(10, 88, 82);
+    font-style: italic;
+    text-align: right;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.skills {
+    text-align: right;
+}
+
+blockquote{
+    font-size: 15px;
+}
+
+.pahr {
+    font-style: italic;
+    font-size: 18px;
+}
+
+.noitalic {
+    font-style: normal;
+}
+
+.align {
+    text-align: right;
+}
+
+table {
+    width: 800px;
+    border-collapse: collapse; 
+}
+
+.title {
+    font-size: 30px;
+    text-align: left;
+    line-height: 100px;
+    border: 1px solid brown;
+    padding-top: 20px;
+    padding-left: 20px;
+    background-color: rgb(9, 19, 41);
+    color: white;
+}
+
+tr {
+    background-color: rgb(172, 194, 236);
+}
+
+.image {
+    text-align: right;
+    background-image: url("office.jpg")
+}
+
+td {
+    padding: 30px;
+}
